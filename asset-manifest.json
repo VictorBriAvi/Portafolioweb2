@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Portafolioweb2/static/css/main.5cd65c24.css",
-    "main.js": "/Portafolioweb2/static/js/main.a7f7d683.js",
+    "main.js": "/Portafolioweb2/static/js/main.8e20fcda.js",
     "static/css/587.f9355d94.chunk.css": "/Portafolioweb2/static/css/587.f9355d94.chunk.css",
     "static/css/890.aaeb46e2.chunk.css": "/Portafolioweb2/static/css/890.aaeb46e2.chunk.css",
-    "static/js/890.beb3f27f.chunk.js": "/Portafolioweb2/static/js/890.beb3f27f.chunk.js",
+    "static/js/890.9939823b.chunk.js": "/Portafolioweb2/static/js/890.9939823b.chunk.js",
     "static/js/598.d4a48af9.chunk.js": "/Portafolioweb2/static/js/598.d4a48af9.chunk.js",
     "static/js/864.442747ef.chunk.js": "/Portafolioweb2/static/js/864.442747ef.chunk.js",
     "static/css/523.c8122a33.chunk.css": "/Portafolioweb2/static/css/523.c8122a33.chunk.css",
@@ -41,10 +41,10 @@
     "index.html": "/Portafolioweb2/index.html",
     "static/media/waveCentral.svg": "/Portafolioweb2/static/media/waveCentral.2f943a78384e422097e96f7b4ce889a1.svg",
     "main.5cd65c24.css.map": "/Portafolioweb2/static/css/main.5cd65c24.css.map",
-    "main.a7f7d683.js.map": "/Portafolioweb2/static/js/main.a7f7d683.js.map",
+    "main.8e20fcda.js.map": "/Portafolioweb2/static/js/main.8e20fcda.js.map",
     "587.f9355d94.chunk.css.map": "/Portafolioweb2/static/css/587.f9355d94.chunk.css.map",
     "890.aaeb46e2.chunk.css.map": "/Portafolioweb2/static/css/890.aaeb46e2.chunk.css.map",
-    "890.beb3f27f.chunk.js.map": "/Portafolioweb2/static/js/890.beb3f27f.chunk.js.map",
+    "890.9939823b.chunk.js.map": "/Portafolioweb2/static/js/890.9939823b.chunk.js.map",
     "598.d4a48af9.chunk.js.map": "/Portafolioweb2/static/js/598.d4a48af9.chunk.js.map",
     "864.442747ef.chunk.js.map": "/Portafolioweb2/static/js/864.442747ef.chunk.js.map",
     "523.c8122a33.chunk.css.map": "/Portafolioweb2/static/css/523.c8122a33.chunk.css.map",
@@ -73,6 +73,6 @@
   },
   "entrypoints": [
     "static/css/main.5cd65c24.css",
-    "static/js/main.a7f7d683.js"
+    "static/js/main.8e20fcda.js"
   ]
 }
