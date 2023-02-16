@@ -72,7 +72,6 @@ const Cursos = () => {
 
   const mostrar = () => {
     setShowAll(!showAll);
-    console.log(showAll);
   };
   return (
     <Suspense fallback={<Loading />}>
