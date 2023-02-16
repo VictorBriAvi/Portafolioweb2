@@ -23,7 +23,7 @@ const AppRouter = () => {
     <Suspense fallback={<Loading />}>
       {/*   <Header /> */}
       <Routes>
-        <Route end path="Portafolioweb2/" element={<Home />} />
+        <Route end path="/" element={<Home />} />
         {/*         <Route end path="/contactos" element={<Contacto />} />
         <Route end path="/skills" element={<LenguajesProgramacion />} />
         <Route end path="/proyectos" element={<Proyectos />} />
@@ -31,7 +31,7 @@ const AppRouter = () => {
         <Route end path="/Estudios/:id" element={<CursoScreen />} />
         <Route end path="/loading" element={<Loading />} /> */}
 
-        <Route path="*" element={<Navigate to="Portafolioweb2/" />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
     </Suspense>
