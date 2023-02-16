@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcurriculum=self.webpackChunkcurriculum||[]).push([[864],{4864:function(u,r,c){c.r(r);var e=c(2791),n=c(7689),t=c(1224),l=c(184);r.default=function(u){var r=u.children;return(0,e.useContext)(t.V).log.log?(0,l.jsx)(n.Fg,{to:"/"}):r}}}]);
+//# sourceMappingURL=864.442747ef.chunk.js.map
