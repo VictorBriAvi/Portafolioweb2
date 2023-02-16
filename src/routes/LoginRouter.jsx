@@ -16,7 +16,7 @@ const PublicRouter = lazy(() => import("./PublicRouter"));
 const LoginRouter = () => {
   return (
     <Suspense fallback={<Loading />}>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           {/*           <Route
             path="/PortafolioWeb"
@@ -39,7 +39,7 @@ const LoginRouter = () => {
             }
           />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </Suspense>
   );
 };
