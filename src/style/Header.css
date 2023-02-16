@@ -1,0 +1,52 @@
+.header {
+
+    color: black;
+    border-bottom: 2px solid #0066FF;
+    margin-top: 20px;
+    border-radius: 10%;
+    padding-bottom: 30px;
+
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+
+
+}
+
+li {
+    font-size: 2rem;
+
+}
+
+.boton_logout {
+    background-color: #0066FF;
+    color: #ffffff;
+}
+
+.logos {
+
+    color: #0066FF;
+}
+
+.logos:hover {
+    color: #65C9FF;
+
+}
+
+a,
+a:active {
+    text-decoration: none;
+    color: wheat;
+}
+
+a:hover {
+    color: black;
+    transition: 0.4s;
+}
+
+li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+
+}

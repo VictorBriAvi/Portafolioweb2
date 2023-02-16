@@ -1,0 +1,195 @@
+.contenedor_texto {
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Mono', monospace;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+.imagen_estudiando {
+    width: 80%;
+}
+
+
+
+/* card_fondo : Esta modificando toda la tarjeta de presentacion */
+.card_fondo {
+    border: 2px solid #0066FF;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+
+/* Aca estamos modificando las cosas del boton que esta dentro de la tarjeta */
+.boton_vermas {
+    color: #ffffff;
+    border-top: 1px solid #0066FF;
+    color: black;
+
+}
+
+.boton_vermas:hover {
+    background-color: #0066FF;
+    color: white;
+    transition: 0.4s;
+
+}
+
+.icono_boton_vermas {
+    font-size: 1.3rem;
+
+}
+
+
+/* Aca se esta haciendo el diseno 
+del boton ver mas   que esta bajo de todo*/
+
+.boton_mostrar {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    /* border: 2px solid #55C1FF; */
+    width: 200px;
+    border-bottom: 2px solid #0066FF;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.boton_mostrar:hover {
+    background-color: #0066FF;
+    color: white;
+    transition: 0.4s;
+}
+
+/* Este es el icono de ver mas */
+.icono_mostrasmas {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+
+}
+
+
+/* Estos son los estilos del boton Buscar que tiene lupa */
+
+.icono_lupa_buscar {
+    margin-left: 10px;
+    font-size: 1.5rem;
+
+}
+
+
+
+/* Este son los estilos para el boton buscar */
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more {
+    width: 12rem;
+    height: auto;
+}
+
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #0066FF;
+    border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle {
+    width: 100%;
+    transition: 0.4s;
+}
+
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+    transition: 0.4s;
+}
+
+button:hover .button-text {
+    color: #fff;
+    transition: 0.4s;
+}
+
+/* Aca estamos modificando el boton de buscar lo del valor de input */
+.boton_buscador {
+    border-left: 2px solid #0066FF;
+    border-right: 2px solid #0066FF;
+
+}
+
+.boton_buscador:hover {
+    background-color: #0066FF;
+    transition: 0.4s;
+    color: #ffffff;
+}
+
+/* aca se estan realizado las animaciones */
+.animate__flash {
+
+    --animate-duration: 2s;
+
+    --animate-delay: 0.9s;
+}

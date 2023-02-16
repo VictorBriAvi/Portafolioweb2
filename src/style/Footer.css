@@ -1,0 +1,46 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #0066FF;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+
+.logos {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+
+
+
+}
+
+a,
+a:active {
+    text-decoration: none;
+    color: wheat;
+}
+
+a:hover {
+    color: black;
+    transition: 0.4s;
+}
+
+.margin__derechos {
+
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.hovers:hover {
+    color: black;
+}
+
+.texto_motivador {
+    color: #ffffff;
+    text-align: center;
+}

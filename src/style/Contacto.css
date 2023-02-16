@@ -1,0 +1,53 @@
+.imagen_contacto {
+    width: 80%;
+}
+
+.contenedor_contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+
+}
+
+/* La idea aca es que se pueda hacer responsive */
+.contenedor_imagen_texto {}
+
+/* Aca se esta agregando a todo el estilos
+de los logo de contacto */
+
+.contenedor_contactos_redes {
+
+    font-size: 6rem;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+
+.color_texto {
+    color: #65C9FF;
+
+}
+
+.color_texto :hover {
+    color: #0066FF;
+    transition: 0.4s;
+}
+
+/* Aca se esta aplicando la animacion */
+
+.animate__bounce {
+    --animate-duration: 1s;
+
+    --animate-delay: 0.9s;
+}

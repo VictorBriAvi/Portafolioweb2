@@ -1,0 +1,41 @@
+.lenguajes {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_imagenes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.icono_vscode {
+    font-size: 4rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+
+}
+
+.manosnotebook {
+    width: 80%;
+}
+
+
+
+.texto_lenguajes {
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* aca se agrega la animacion */
+
+.animate__bounceIn {
+    --animate-duration: 2s;
+
+    --animate-delay: 0.9s;
+}

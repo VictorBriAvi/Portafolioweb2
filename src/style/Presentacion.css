@@ -1,0 +1,22 @@
+.texto_narrativa_descripcion {
+    font-size: 2rem;
+}
+
+.texto_narrativa_descripcion_parrafo {
+    font-size: 1.5rem;
+}
+
+.home_avatar {}
+
+@media only screen and (max-width: 600px) {
+
+
+    .contenedor_home {}
+
+    .home_avatar {
+        margin-top: 100px;
+    }
+
+
+
+}

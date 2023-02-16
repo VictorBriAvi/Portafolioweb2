@@ -1,0 +1,70 @@
+.contenedor_home {
+    position: relative;
+    margin-top: 20px;
+
+}
+
+
+.contenedor_imagen_avatar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.texto_avatar {
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Mono', monospace;
+
+    font-size: 1.5rem;
+
+    text-align: center;
+}
+
+.home_avatar {
+    width: 300px;
+
+}
+
+.wave_contenedor {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+/* Contendor 2  */
+.contenedor_home_segundaparte {
+    background-color: #0066FF;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: wheat;
+    padding: 50px;
+    padding-top: 0;
+    box-shadow: rgb(0 0 0 / 20%) 0px 20px 30px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.imagen_nubes {
+    width: 100%;
+}
+
+.contenedor_cursos {
+    margin-top: 50px;
+}
+
+/* Aca estoy agregando las animaciones */
+.animate__fadeInDown {
+    --animate-duration: 1s;
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}

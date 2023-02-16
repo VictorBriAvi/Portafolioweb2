@@ -1,0 +1,67 @@
+.contenedor_proyectos {
+
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.cards_proyectos {
+    display: flex;
+    justify-content: center;
+}
+
+.fondo_contenedor_carProyecto {
+    /*  border: 1px solid #03254E; */
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+
+
+.card_fondo_true {
+    background: #03254E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.1s;
+}
+
+.button_card_true {
+
+    border: 2px solid #0066FF;
+
+}
+
+.button_card_true:hover {
+    background-color: #0066FF;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    transition: 0.4s;
+}
+
+/* Estamos modificando el titulo y el texto */
+.contenedor_texto_proyectos {
+    text-align: center;
+}
+
+.imagen_trabajos_proyectos {
+    width: 80%;
+}
+
+/* Aca estamos realizando las animaciones */
+.animate__jello {
+
+    --animate-duration: 1s;
+
+    --animate-delay: 0.9s;
+}

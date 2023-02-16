@@ -1,0 +1,96 @@
+.loginScreen_contenedor {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+
+.imagen_portafolio {
+    width: 80%;
+}
+
+.contenedor_imagen_boton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+/* Este es el contenedor del texto */
+
+.contenedor_texto {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* Aca se esta realizando los estilos del boton*/
+.btns {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: #0066FF;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+button:hover {
+    color: black;
+}
+
+button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* Aca estamos haciendo la parte responsiva */
+
+@media only screen and (max-width: 600px) {
+    .loginScreen_contenedor {
+
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+/* Aca estoy modificando    las animaciones */
+
+.animate__slideInLeft {
+    --animate-duration: 1.5s;
+}
