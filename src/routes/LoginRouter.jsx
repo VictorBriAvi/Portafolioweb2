@@ -18,26 +18,24 @@ const LoginRouter = () => {
     <Suspense fallback={<Loading />}>
       <HashRouter>
         <Routes>
-          {/*           <Route
-            path="/PortafolioWeb"
-            element={
-              <PublicRouter>
-                <LoginScreen />
-              </PublicRouter>
-            }
-          /> */}
-
           <Route
             path="*"
             element={
-              /*               <PrivateRouter>
-                <AppRouter />
-              </PrivateRouter> */
               <PublicRouter>
                 <AppRouter />
               </PublicRouter>
             }
           />
+
+          {/*           <Route
+            path="*"
+            element={
+                          <PrivateRouter>
+                <AppRouter />
+              </PrivateRouter> 
+              <PublicRouter></PublicRouter>
+            }
+          /> */}
         </Routes>
       </HashRouter>
     </Suspense>
