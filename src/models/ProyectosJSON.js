@@ -18,8 +18,7 @@ export const ProyectosJSON = [
     id: "reactrouter",
     url: "https://victorbriavi.github.io/login/",
     name: "React Router",
-    descripcion:
-      "Trabajando con react-router, trabajando rutas privadas y publicas",
+    descripcion: "Trabajando con react-router,  rutas privadas y publicas",
     type: "p",
   },
   {},

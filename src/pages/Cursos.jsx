@@ -78,7 +78,7 @@ const Cursos = ({ id }) => {
       <div id={id} className="contenedor_pagina_cursos mx-3   text-center  ">
         <div className="contenedor_texto   mb-5">
           <h2 className="primer_texto  mt-5 mb-5 fw-bolder ">
-            Te invito a conocer mi formacion cómo desarrollador.
+            Te invito a conocer mi formacion como desarrollador.
           </h2>
 
           <div className="contenedor_imagen mt-5">
