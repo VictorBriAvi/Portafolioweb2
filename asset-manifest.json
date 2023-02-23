@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portafolioweb2/static/css/main.5cd65c24.css",
-    "main.js": "/Portafolioweb2/static/js/main.fc5a8e3a.js",
+    "main.js": "/Portafolioweb2/static/js/main.b29e6011.js",
     "static/css/587.f9355d94.chunk.css": "/Portafolioweb2/static/css/587.f9355d94.chunk.css",
     "static/css/890.aaeb46e2.chunk.css": "/Portafolioweb2/static/css/890.aaeb46e2.chunk.css",
     "static/js/890.f858cfbb.chunk.js": "/Portafolioweb2/static/js/890.f858cfbb.chunk.js",
@@ -13,7 +13,7 @@
     "static/js/712.6103a699.chunk.js": "/Portafolioweb2/static/js/712.6103a699.chunk.js",
     "static/css/504.61a29977.chunk.css": "/Portafolioweb2/static/css/504.61a29977.chunk.css",
     "static/css/649.b204b804.chunk.css": "/Portafolioweb2/static/css/649.b204b804.chunk.css",
-    "static/js/649.cfbf3ca9.chunk.js": "/Portafolioweb2/static/js/649.cfbf3ca9.chunk.js",
+    "static/js/649.67e8b86d.chunk.js": "/Portafolioweb2/static/js/649.67e8b86d.chunk.js",
     "static/css/729.9117d893.chunk.css": "/Portafolioweb2/static/css/729.9117d893.chunk.css",
     "static/js/729.8b29a360.chunk.js": "/Portafolioweb2/static/js/729.8b29a360.chunk.js",
     "static/css/161.1ea6cada.chunk.css": "/Portafolioweb2/static/css/161.1ea6cada.chunk.css",
@@ -30,8 +30,8 @@
     "static/js/692.26ec3bfe.chunk.js": "/Portafolioweb2/static/js/692.26ec3bfe.chunk.js",
     "static/js/820.d2e35eb9.chunk.js": "/Portafolioweb2/static/js/820.d2e35eb9.chunk.js",
     "static/js/67.2d92cff7.chunk.js": "/Portafolioweb2/static/js/67.2d92cff7.chunk.js",
-    "static/js/453.3d489fd6.chunk.js": "/Portafolioweb2/static/js/453.3d489fd6.chunk.js",
-    "static/js/693.34ce2513.chunk.js": "/Portafolioweb2/static/js/693.34ce2513.chunk.js",
+    "static/js/453.275e5204.chunk.js": "/Portafolioweb2/static/js/453.275e5204.chunk.js",
+    "static/js/693.13c08fa2.chunk.js": "/Portafolioweb2/static/js/693.13c08fa2.chunk.js",
     "static/media/Hand coding-bro 1.svg": "/Portafolioweb2/static/media/Hand coding-bro 1.23999ead7238db70aeddc319cdca3f9f.svg",
     "static/media/Portfolio Update-cuate 1.svg": "/Portafolioweb2/static/media/Portfolio Update-cuate 1.fabb3e212199f51793d8996cf04ab052.svg",
     "static/media/Social Growth-pana 1.svg": "/Portafolioweb2/static/media/Social Growth-pana 1.8af86cf15948cba03e903d62a67a3a38.svg",
@@ -44,7 +44,7 @@
     "index.html": "/Portafolioweb2/index.html",
     "static/media/waveCentral.svg": "/Portafolioweb2/static/media/waveCentral.2f943a78384e422097e96f7b4ce889a1.svg",
     "main.5cd65c24.css.map": "/Portafolioweb2/static/css/main.5cd65c24.css.map",
-    "main.fc5a8e3a.js.map": "/Portafolioweb2/static/js/main.fc5a8e3a.js.map",
+    "main.b29e6011.js.map": "/Portafolioweb2/static/js/main.b29e6011.js.map",
     "587.f9355d94.chunk.css.map": "/Portafolioweb2/static/css/587.f9355d94.chunk.css.map",
     "890.aaeb46e2.chunk.css.map": "/Portafolioweb2/static/css/890.aaeb46e2.chunk.css.map",
     "890.f858cfbb.chunk.js.map": "/Portafolioweb2/static/js/890.f858cfbb.chunk.js.map",
@@ -56,7 +56,7 @@
     "712.6103a699.chunk.js.map": "/Portafolioweb2/static/js/712.6103a699.chunk.js.map",
     "504.61a29977.chunk.css.map": "/Portafolioweb2/static/css/504.61a29977.chunk.css.map",
     "649.b204b804.chunk.css.map": "/Portafolioweb2/static/css/649.b204b804.chunk.css.map",
-    "649.cfbf3ca9.chunk.js.map": "/Portafolioweb2/static/js/649.cfbf3ca9.chunk.js.map",
+    "649.67e8b86d.chunk.js.map": "/Portafolioweb2/static/js/649.67e8b86d.chunk.js.map",
     "729.9117d893.chunk.css.map": "/Portafolioweb2/static/css/729.9117d893.chunk.css.map",
     "729.8b29a360.chunk.js.map": "/Portafolioweb2/static/js/729.8b29a360.chunk.js.map",
     "161.1ea6cada.chunk.css.map": "/Portafolioweb2/static/css/161.1ea6cada.chunk.css.map",
@@ -73,11 +73,11 @@
     "692.26ec3bfe.chunk.js.map": "/Portafolioweb2/static/js/692.26ec3bfe.chunk.js.map",
     "820.d2e35eb9.chunk.js.map": "/Portafolioweb2/static/js/820.d2e35eb9.chunk.js.map",
     "67.2d92cff7.chunk.js.map": "/Portafolioweb2/static/js/67.2d92cff7.chunk.js.map",
-    "453.3d489fd6.chunk.js.map": "/Portafolioweb2/static/js/453.3d489fd6.chunk.js.map",
-    "693.34ce2513.chunk.js.map": "/Portafolioweb2/static/js/693.34ce2513.chunk.js.map"
+    "453.275e5204.chunk.js.map": "/Portafolioweb2/static/js/453.275e5204.chunk.js.map",
+    "693.13c08fa2.chunk.js.map": "/Portafolioweb2/static/js/693.13c08fa2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cd65c24.css",
-    "static/js/main.fc5a8e3a.js"
+    "static/js/main.b29e6011.js"
   ]
 }
