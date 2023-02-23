@@ -12,7 +12,7 @@ const LenguajesProgramacion = ({ id }) => {
     <>
       <div className="container contendor_lenguajes   " id={id}>
         <div className="contenedor_imagenes mt-5">
-          <h4 className="texto_lenguajes">Te presento algunas</h4>
+          <h4 className="texto_lenguajes">Te presento mis</h4>
           <h2 className="texto_lenguajes my-5 fw-bold">
             Tecnologias estudiadas
           </h2>

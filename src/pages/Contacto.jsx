@@ -78,7 +78,6 @@ const Contacto = ({ id }) => {
         </a>
       </div>
       <h3 className="mt-5 mb-4">Espero que nos contactemos pronto</h3>
-      <h2 className="mt-3  mb-5  fw-bolder">Gracias por visitarme</h2>
     </div>
   );
 };

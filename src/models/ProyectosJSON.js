@@ -4,7 +4,7 @@ export const ProyectosJSON = [
     url: "https://victorbriavi.github.io/GaleriaImagenesPage/",
     name: "galeria de imagenes",
     descripcion:
-      "Galeria de imagenes, en el cual podemos buscar contenido en la web",
+      "Galeria de imagenes, en el podemos buscar contenido en la web",
     type: "p",
   },
   {

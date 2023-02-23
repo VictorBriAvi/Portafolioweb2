@@ -21,7 +21,7 @@ const Proyectos = ({ id }) => {
       className="contenedor_proyectos container   col-8   mt-2  mb-5 "
     >
       <div className="contenedor_texto_proyectos container ">
-        <h2 className="my-5 fw-bolder">Mis trabajos mas recientes</h2>
+        <h2 className="my-5 fw-bolder">Trabajos mas recientes</h2>
         <img
           src={trabajos}
           className="imagen_trabajos_proyectos animate__animated animate__jello"
