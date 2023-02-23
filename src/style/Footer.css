@@ -1,19 +1,37 @@
 .footerContainer {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
     background-color: #0066FF;
     font-family: 'Righteous', cursive;
     font-family: 'Roboto Mono', monospace;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 
+}
 
+@media only screen and (max-width: 600px) {
+
+    .footerContainer {
+
+        display: grid;
+        align-content: stretch;
+        justify-content: end;
+        align-items: start;
+        justify-items: center;
+    }
+
+    .margin__derechos {
+        margin-bottom: 100px;
+    }
 }
 
 .logos {
     font-size: 2rem;
     text-align: center;
     width: 100%;
+
 
 
 
@@ -30,11 +48,7 @@ a:hover {
     transition: 0.4s;
 }
 
-.margin__derechos {
-
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
+.margin__derechos {}
 
 .hovers:hover {
     color: black;

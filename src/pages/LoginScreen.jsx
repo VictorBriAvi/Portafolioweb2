@@ -18,7 +18,7 @@ const LoginScreen = () => {
   }; */
 
   return (
-    <div className="loginScreen_contenedor mx-3 mt-5 vh-100">
+    <div className="loginScreen_contenedor mx-3  vh-100">
       {/* Aca estamos agregando un contenedor para el texto  */}
       <div className="contenedor_texto animate__animated animate__slideInLeft">
         <h2 className="mb-5 fw-bolder">Bienvenidos</h2>

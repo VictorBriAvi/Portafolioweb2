@@ -14,25 +14,24 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="footerContainer container-fluid  vh-50    ">
-      <div className="   mb-3   ">
-        <h2 className="texto_motivador my-5 fw-bolder">Victor Avila</h2>
-        {/*         <img
+    <div className="footerContainer     ">
+      <div className="    ">
+        <img
           className="img-fluid "
           style={{
-            width: 200,
-            height: 200,
+            width: 100,
+            height: 100,
           }}
           src={imagenes}
           alt="Logo"
-        /> */}
+        />
       </div>
 
-      <h2 className="texto_motivador mb-5">
+      <h2 className="texto_motivador ">
         Aprendiendo y subiendo de nivel un día a la vez.
       </h2>
 
-      <div className=" logos   ">
+      <div className=" logos ">
         <a
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/victoravilab27/"
@@ -66,13 +65,13 @@ const Footer = () => {
           href="https://instagram.com/victoravilab?igshid=ZDdkNTZiNTM="
           target="_blank"
         >
-          <AiFillInstagram className="me-5" />
+          <AiFillInstagram className="" />
         </a>
-        <div className="text-white margin__derechos   ">
-          <h6>
-            Realizado por <BiCopyright className="hovers" /> Victor Avila
-          </h6>
-        </div>
+      </div>
+      <div className="text-white margin__derechos   ">
+        <h6>
+          Realizado por <BiCopyright className="hovers" /> Victor Avila
+        </h6>
       </div>
     </div>
   );

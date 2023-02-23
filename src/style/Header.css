@@ -8,13 +8,18 @@
 
     font-family: 'Righteous', cursive;
     font-family: 'Roboto Mono', monospace;
-    display: flex;
 
 
 }
 
 li {
-    font-size: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+li:hover {
+    font-weight: bolder;
 
 }
 

@@ -9,14 +9,17 @@ import trabajos from "../imagenes/proyectos/trabajosRealizado.svg";
 /* importaciones css */
 import "../style/Proyectos.css";
 
-const Proyectos = () => {
+const Proyectos = ({ id }) => {
   /* tengo filtrando la busqueda de los proyectos  de archivo "Proyectos" */
   const proyectosCards = ProyectosJSON.filter(
     (proyectoJSON) => proyectoJSON.type === "p"
   );
 
   return (
-    <div className="contenedor_proyectos container   col-8   mt-2  ">
+    <div
+      id={id}
+      className="contenedor_proyectos container   col-8   mt-2  mb-5 "
+    >
       <div className="contenedor_texto_proyectos container ">
         <h2 className="my-5 fw-bolder">Mis trabajos mas recientes</h2>
         <img

@@ -5,6 +5,8 @@
 }
 
 
+
+
 .contenedor_imagen_avatar {
     display: flex;
     align-items: center;
@@ -18,15 +20,13 @@
 .texto_avatar {
     font-family: 'Righteous', cursive;
     font-family: 'Roboto Mono', monospace;
-
     font-size: 1.5rem;
-
     text-align: center;
 }
 
 .home_avatar {
     width: 300px;
-
+    margin-top: 50px
 }
 
 .wave_contenedor {
@@ -58,9 +58,7 @@
     width: 100%;
 }
 
-.contenedor_cursos {
-    margin-top: 50px;
-}
+
 
 /* Aca estoy agregando las animaciones */
 .animate__fadeInDown {

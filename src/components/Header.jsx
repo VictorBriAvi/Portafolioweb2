@@ -16,7 +16,10 @@ import {
 } from "react-icons/ai";
 
 import { BsWhatsapp } from "react-icons/bs";
+/* import { Link } from "react-router-dom"; */
+import { Link, animateScroll as scroll } from "react-scroll";
 
+import logo from "../imagenes/header/logoVictorAvila2.png";
 const Header = () => {
   /*   const navigate = useNavigate();
 
@@ -31,72 +34,68 @@ const Header = () => {
     <div>
       <nav className="header navbar navbar-expand-lg  ">
         <div className="container ">
-          {/*           <a className="navbar-brand" href="/">
-            Victor Avilaa
-          </a> */}
-          {/*           <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon "></span>
-          </button> */}
+          <Link to="/home">
+            <img
+              className="img-fluid "
+              style={{
+                width: 100,
+                height: 100,
+              }}
+              src={logo}
+              alt="Logo"
+            />
+          </Link>
+
           {/*  aca comienza el inicio     */}
-          <div className=" " id="navbarNav">
+          <div div className=" " id="navbarNav">
             <ul className="navbar-nav ">
               <li className="nav-item ">
-                <a
-                  rel="noopener noreferrer"
-                  href="https://www.linkedin.com/in/victoravilab27/"
-                  target="_blank"
-                  className="logos"
+                <Link
+                  activeClass="active"
+                  to="tecnologias"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
                 >
-                  <AiFillLinkedin className="" />
-                </a>
+                  Tecnologias
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  rel="noopener noreferrer"
-                  href="https://github.com/VictorBriAvi"
-                  target="_blank"
-                  className="logos"
+                <Link
+                  activeClass="active"
+                  to="proyectos"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
                 >
-                  <AiFillGithub className="" />
-                </a>
+                  Proyectos
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  rel="noopener noreferrer"
-                  href="https://api.whatsapp.com/send?phone=5491126875506&text=Hola, Nececito mas informacion de tu perfil como desarrollador!"
-                  target="_blank"
-                  className="logos"
+                <Link
+                  activeClass="active"
+                  to="cursos"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
                 >
-                  <BsWhatsapp className="" />
-                </a>
+                  Cursos
+                </Link>
               </li>
               <li className="nav-item">
-                <a
-                  rel="noopener noreferrer"
-                  href="mailto:victor_15_avila@hotmail.es"
-                  target="_blank"
-                  className="logos"
+                <Link
+                  activeClass="active"
+                  to="contacto"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
                 >
-                  <AiFillMail className="" />
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  rel="noopener noreferrer"
-                  href="https://instagram.com/victoravilab?igshid=ZDdkNTZiNTM="
-                  target="_blank"
-                  className="logos"
-                >
-                  <AiFillInstagram className="" />
-                </a>
+                  Contacto
+                </Link>
               </li>
             </ul>
           </div>

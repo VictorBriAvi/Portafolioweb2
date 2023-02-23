@@ -10,6 +10,7 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
 
+
 }
 
 .cards_proyectos {
@@ -25,7 +26,10 @@
 
 }
 
-
+.imagen_false {
+    background-color: red;
+    height: 100%;
+}
 
 
 .card_fondo_true {

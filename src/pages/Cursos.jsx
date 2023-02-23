@@ -18,7 +18,7 @@ import Loading from "../components/Loading";
 /* import Card from "../components/Card"; */
 const Card = lazy(() => import("../components/Card"));
 
-const Cursos = () => {
+const Cursos = ({ id }) => {
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -75,7 +75,7 @@ const Cursos = () => {
   };
   return (
     <Suspense fallback={<Loading />}>
-      <div className="contenedor_pagina_cursos mx-3  mt-3 text-center  ">
+      <div id={id} className="contenedor_pagina_cursos mx-3   text-center  ">
         <div className="contenedor_texto   mb-5">
           <h2 className="primer_texto  mt-5 mb-5 fw-bolder ">
             Te invito a conocer mi formacion cómo desarrollador.

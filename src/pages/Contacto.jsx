@@ -18,9 +18,9 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 
-const Contacto = () => {
+const Contacto = ({ id }) => {
   return (
-    <div className="container contenedor_contacto">
+    <div id={id} className="container contenedor_contacto mt-5">
       <div className="contenedor_imagen_texto">
         <h2 className="mb-0 mt-5 fw-bolder">Si te gusta mi trabajo</h2>
 

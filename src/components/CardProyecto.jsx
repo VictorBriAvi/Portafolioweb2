@@ -18,12 +18,12 @@ const PresentacionProyecto = ({ id, url, type, descripcion }) => {
     <div
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="card  text-white col-lg-4 mb-4 m-5 p-0 fondo_contenedor_carProyecto "
+      className="card  text-white col-lg-4  m-5 p-0 fondo_contenedor_carProyecto "
     >
       {/* En Esta operacion ternario que tenemos si es false muestra la imagen 
       del proyecto, si es true muestra el bloque con la direccion de link */}
       {!event ? (
-        <img src={path} className="card-img " alt={id} />
+        <img src={path} className="card-img  imagen_false" alt={id} />
       ) : (
         <>
           <img src={path} className="card-img" alt={id} />

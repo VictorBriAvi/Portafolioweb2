@@ -2,6 +2,9 @@ import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Estudios } from "../models/Estudios";
 
+/* Aca se estan llamando los estilos */
+import "../style/CursoScreen.css";
+
 const CursoScreen = () => {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -28,9 +31,9 @@ const CursoScreen = () => {
         className=" col-10 carousel slide mx-auto "
         data-bs-ride="true"
       >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={path} className="d-block w-100" alt="..." />
+        <div className="carousel-inner imagen">
+          <div className="carousel-item active ">
+            <img src={path} className=" d-block w-100 " alt="..." />
           </div>
 
           {/* ACA ESTAMOS PASANDO A UNA SEGUNDA IMAGEN QUE AUN NO ESTA DISPONIBLE */}
@@ -38,7 +41,9 @@ const CursoScreen = () => {
             <img src={pathSecond} className="d-block w-100" alt="..." />
           </div> */}
         </div>
-        <button
+
+        {/* Aca se esta agregando unos botonos para el cambio de imagenes */}
+        {/*         <button
           className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleIndicators"
@@ -60,7 +65,7 @@ const CursoScreen = () => {
             className="carousel-control-next-icon"
             aria-hidden="true"
           ></span>
-        </button>
+        </button> */}
         <div className="container text-center mt-5">
           <button
             onClick={handleBack}

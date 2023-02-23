@@ -20,12 +20,6 @@ const Lenguajes = ({ id, name, type }) => {
           alt="..."
           style={{ height: "100px" }}
         />
-
-        {image && (
-          <div className="card-body ">
-            <h5 className="text-center mb-3 mt-3 ">{name.toUpperCase()}</h5>
-          </div>
-        )}
       </div>
     </div>
   );
