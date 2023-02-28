@@ -21,5 +21,12 @@ export const ProyectosJSON = [
     descripcion: "Trabajando con react-router,  rutas privadas y publicas",
     type: "p",
   },
+  {
+    id: "reactcrud",
+    url: "https://victorbriavi.github.io/CRUD/",
+    name: "React CRUD",
+    descripcion: "Proyecto CRUD",
+    type: "p",
+  },
   {},
 ];

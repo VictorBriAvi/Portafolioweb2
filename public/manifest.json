@@ -3,7 +3,7 @@
   "name": "Victor Avila | Portafolio web",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#FFFFFF",
+  "theme_color": "#000000",
   "background_color": "#ffffff",
   "icons": [{
       "src": "windows11/SmallTile.scale-100.png",
