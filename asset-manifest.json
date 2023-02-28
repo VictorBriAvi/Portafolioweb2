@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portafolioweb2/static/css/main.5cd65c24.css",
-    "main.js": "/Portafolioweb2/static/js/main.498073cb.js",
+    "main.js": "/Portafolioweb2/static/js/main.b6f53f4a.js",
     "static/css/587.f9355d94.chunk.css": "/Portafolioweb2/static/css/587.f9355d94.chunk.css",
     "static/css/890.aaeb46e2.chunk.css": "/Portafolioweb2/static/css/890.aaeb46e2.chunk.css",
     "static/js/890.4a7d6856.chunk.js": "/Portafolioweb2/static/js/890.4a7d6856.chunk.js",
@@ -31,7 +31,7 @@
     "static/js/820.d2e35eb9.chunk.js": "/Portafolioweb2/static/js/820.d2e35eb9.chunk.js",
     "static/js/67.143bc1ef.chunk.js": "/Portafolioweb2/static/js/67.143bc1ef.chunk.js",
     "static/js/453.275e5204.chunk.js": "/Portafolioweb2/static/js/453.275e5204.chunk.js",
-    "static/js/693.d017e45c.chunk.js": "/Portafolioweb2/static/js/693.d017e45c.chunk.js",
+    "static/js/693.658b9c2a.chunk.js": "/Portafolioweb2/static/js/693.658b9c2a.chunk.js",
     "static/media/Hand coding-bro 1.svg": "/Portafolioweb2/static/media/Hand coding-bro 1.23999ead7238db70aeddc319cdca3f9f.svg",
     "static/media/Portfolio Update-cuate 1.svg": "/Portafolioweb2/static/media/Portfolio Update-cuate 1.fabb3e212199f51793d8996cf04ab052.svg",
     "static/media/Social Growth-pana 1.svg": "/Portafolioweb2/static/media/Social Growth-pana 1.8af86cf15948cba03e903d62a67a3a38.svg",
@@ -44,7 +44,7 @@
     "index.html": "/Portafolioweb2/index.html",
     "static/media/waveCentral.svg": "/Portafolioweb2/static/media/waveCentral.2f943a78384e422097e96f7b4ce889a1.svg",
     "main.5cd65c24.css.map": "/Portafolioweb2/static/css/main.5cd65c24.css.map",
-    "main.498073cb.js.map": "/Portafolioweb2/static/js/main.498073cb.js.map",
+    "main.b6f53f4a.js.map": "/Portafolioweb2/static/js/main.b6f53f4a.js.map",
     "587.f9355d94.chunk.css.map": "/Portafolioweb2/static/css/587.f9355d94.chunk.css.map",
     "890.aaeb46e2.chunk.css.map": "/Portafolioweb2/static/css/890.aaeb46e2.chunk.css.map",
     "890.4a7d6856.chunk.js.map": "/Portafolioweb2/static/js/890.4a7d6856.chunk.js.map",
@@ -74,10 +74,10 @@
     "820.d2e35eb9.chunk.js.map": "/Portafolioweb2/static/js/820.d2e35eb9.chunk.js.map",
     "67.143bc1ef.chunk.js.map": "/Portafolioweb2/static/js/67.143bc1ef.chunk.js.map",
     "453.275e5204.chunk.js.map": "/Portafolioweb2/static/js/453.275e5204.chunk.js.map",
-    "693.d017e45c.chunk.js.map": "/Portafolioweb2/static/js/693.d017e45c.chunk.js.map"
+    "693.658b9c2a.chunk.js.map": "/Portafolioweb2/static/js/693.658b9c2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cd65c24.css",
-    "static/js/main.498073cb.js"
+    "static/js/main.b6f53f4a.js"
   ]
 }
