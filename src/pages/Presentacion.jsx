@@ -13,7 +13,7 @@ const Presentacion = () => {
       <div className=" vh-100 contenedor_home  ">
         <div className="contenedor_imagen_avatar ">
           <h2 className="texto_avatar fw-bolder my-5 ">
-            Desarrollador Frontend
+            Desarrollador Frontend y Backend
           </h2>
           <h2 className="texto_avatar x ">Creciendo Contastemente</h2>
           <img
