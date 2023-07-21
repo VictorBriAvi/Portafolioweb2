@@ -2,31 +2,42 @@ export const ProyectosJSON = [
   {
     id: "galeriaimagenes",
     url: "https://victorbriavi.github.io/GaleriaImagenesPage/",
-    name: "galeria de imagenes",
+    name: "Galería de Imágenes y Búsqueda",
     descripcion:
-      "Galeria de imagenes, en el podemos buscar contenido en la web",
+      "Explora y encuentra inspiración en nuestra amplia Galería de Imágenes. Busca fotos de tu interés y compártelas fácilmente.",
     type: "p",
   },
   {
     id: "perfilcontador",
     url: "https://victorbriavi.github.io/ContadorPage/",
-    name: "contador",
-    descripcion: "Contador de practica, para iniciar en react",
+    name: "Contador Interactivo",
+    descripcion:
+      "Un contador versátil y sencillo que te permite incrementar y disminuir valores con facilidad. Lleva el control de lo que necesites de manera rápida y precisa. ¡Contar nunca fue tan sencillo!",
     type: "p",
   },
   {
     id: "reactrouter",
     url: "https://victorbriavi.github.io/login/",
-    name: "React Router",
-    descripcion: "Trabajando con react-router,  rutas privadas y publicas",
+    name: "Universo de Personajes",
+    descripcion:
+      "Descubre una emocionante galería de personajes en React Router. Sumérgete en una experiencia única.",
     type: "p",
   },
   {
     id: "reactcrud",
     url: "https://victorbriavi.github.io/CRUD/",
-    name: "React CRUD",
-    descripcion: "Proyecto CRUD",
+    name: "Sistema CRUD en React para Registros",
+    descripcion:
+      "Gestiona datos con facilidad. Registra, visualiza y edita en una tabla organizada. CRUD sencillo y eficiente. ¡Sin complicaciones!",
     type: "p",
   },
-  {},
+  {
+    id: "cuentasyservicios",
+    url: "https://victorbriavi.github.io/registros/",
+
+    name: "Ventas y Stock en React, C#, y Firebase",
+    descripcion:
+      "Gestiona ventas y stock con React, C#, SQL Server y Firebase. Simplifica tu negocio.",
+    type: "p",
+  },
 ];

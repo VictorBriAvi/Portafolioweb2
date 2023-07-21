@@ -47,7 +47,7 @@ const Header = () => {
           </Link>
 
           {/*  aca comienza el inicio     */}
-          <div div className=" " id="navbarNav">
+          <div className=" " id="navbarNav">
             <ul className="navbar-nav ">
               <li className="nav-item ">
                 <Link

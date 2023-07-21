@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "../style/Proyectos.css";
 /* PresentacionProyecto seria igual a card, solo que card de los proyectos es diferente diseno */
-const PresentacionProyecto = ({ id, url, type, descripcion }) => {
+const PresentacionProyecto = ({ id, url, type, descripcion, name }) => {
   const path = `/Portafolioweb2/assets/proyectoImagenes/${type}-${id}.png`;
   const [event, setEvent] = useState(false);
 
@@ -29,7 +29,7 @@ const PresentacionProyecto = ({ id, url, type, descripcion }) => {
           <img src={path} className="card-img" alt={id} />
 
           <div className="card_fondo_true card-img-overlay text-white   text-center    ">
-            {/* <h5 className=" card-title  ">{name.toUpperCase()}</h5> */}
+            <h5 className=" card-title  ">{name.toUpperCase()}</h5>
             <p className="card-text mb-4">{descripcion}</p>
             <button type="button" className="btn button_card_true ">
               <a

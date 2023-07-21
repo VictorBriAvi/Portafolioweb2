@@ -17,77 +17,77 @@ export const Estudios = [
   {
     id: "gitygithub",
     name: "GIT Y GITHUB: CONTROLE Y COMPARTA SU CODIGO",
-    type: "c",
+    type: "g",
   },
   {
     id: "html5ycss3parte1",
     name: "HTML5 Y CSS3 PARTE 1: MI PRIMERA PAGINA WEB",
-    type: "c",
+    type: "hc",
   },
   {
     id: "html5ycss3parte2",
     name: "HTML5 Y CSS3 PARTE 2: POSICIONAMIENTO, LISTAS Y NAVEGACIÓN",
-    type: "c",
+    type: "hc",
   },
   {
     id: "html5ycss3parte3",
     name: "HTML5 Y CSS3 PARTE 3: TRABAJANDO CON FORMULARIOS Y TABLAS",
-    type: "c",
+    type: "hc",
   },
   {
     id: "html5ycss3parte4",
     name: "HTML5 Y CSS3 PARTE 4: AVANZANDO EN CSS",
-    type: "c",
+    type: "hc",
   },
 
   {
     id: "videojuegos",
     name: "INTRODUCCION AL DESARROLLO DE VIDEOJUEGOS (2°edición)",
-    type: "c",
+    type: "v",
   },
   {
     id: "javaExcepciones",
     name: "JAVA EXCEPCIONES: APRENDA A CREAR,LANZAR Y CONTROLAR EXCEPCIONES",
-    type: "c",
+    type: "j",
   },
   {
     id: "javajreyjdk",
     name: "JAVA JRE Y JDK: COMPILE Y EJECUTE SU PRIMER PROGRAMA",
-    type: "c",
+    type: "j",
   },
   {
     id: "javaoo",
     name: "JAVA OO: ENTENDIENDO LA ORIENTACIÓN A OBJETOS",
-    type: "c",
+    type: "j",
   },
   {
     id: "javaPolimorfismo",
     name: "JAVA POLIMORFISMO: ENTENDIENDO HERENCIA E INTERFACES",
-    type: "c",
+    type: "j",
   },
   {
     id: "javayjavalang",
     name: "JAVA Y JAVA.LANG: PROGRAME CON LA CLASE OBJECT Y STRING",
-    type: "c",
+    type: "j",
   },
 
   {
     id: "javascript1",
     // eslint-disable-next-line no-script-url
     name: "JAVASCRIPT: CONSOLIDE SUS CONOCIMIENTOS EN EL LENGUAJE DE LA WEB",
-    type: "c",
+    type: "js",
   },
   {
     id: "javascript2",
     // eslint-disable-next-line no-script-url
     name: "JAVASCRIPT: HERENCIA E INTERFACES EN ORIENTACIÓN A OBJETOS",
-    type: "c",
+    type: "js",
   },
   {
     id: "javascript3",
     // eslint-disable-next-line no-script-url
     name: "JAVASCRIPT: INTRODUCCIÓN A LA ORIENTACIÓN A OBJETOS",
-    type: "c",
+    type: "js",
   },
   {
     id: "jsenlaweb1",
@@ -99,7 +99,7 @@ export const Estudios = [
   {
     id: "jsenlaweb2",
     name: "JS EN LA WEB: MANIPULACIÓN DEL DOM CON JAVASCRIPT",
-    type: "c",
+    type: "js",
   },
   {
     id: "layoutsResponsivos",

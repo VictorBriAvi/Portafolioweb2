@@ -125,4 +125,18 @@ export const Skills = [
     ],
     type: "s",
   },
+  {
+    id: "nodejs",
+    name: "nodejs",
+    porcentaje: "80%",
+    contenidos: [
+      "html",
+      "css",
+      "lazy loading",
+      "react",
+      "ejemplo",
+      "OtroEjemplo",
+    ],
+    type: "s",
+  },
 ];

@@ -9,6 +9,7 @@
     font-family: 'Righteous', cursive;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
 
 
 }
@@ -34,10 +35,10 @@
     justify-content: center;
     flex-direction: column;
     transition: 0.1s;
+    font-size: 0.8rem;
 }
 
 .button_card_true {
-
     border: 2px solid #0066FF;
 
 }

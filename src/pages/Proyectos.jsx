@@ -16,10 +16,7 @@ const Proyectos = ({ id }) => {
   );
 
   return (
-    <div
-      id={id}
-      className="contenedor_proyectos container   col-8   mt-2  mb-5 "
-    >
+    <div id={id} className="contenedor_proyectos    col-8   mt-2  mb-5 ">
       <div className="contenedor_texto_proyectos container ">
         <h2 className="my-5 fw-bolder">Trabajos mas recientes</h2>
         <img
