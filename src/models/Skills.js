@@ -139,4 +139,32 @@ export const Skills = [
     ],
     type: "s",
   },
+  {
+    id: "firebase",
+    name: "firebase",
+    porcentaje: "80%",
+    contenidos: [
+      "html",
+      "css",
+      "lazy loading",
+      "react",
+      "ejemplo",
+      "OtroEjemplo",
+    ],
+    type: "s",
+  },
+  {
+    id: "github",
+    name: "github",
+    porcentaje: "80%",
+    contenidos: [
+      "html",
+      "css",
+      "lazy loading",
+      "react",
+      "ejemplo",
+      "OtroEjemplo",
+    ],
+    type: "s",
+  },
 ];
